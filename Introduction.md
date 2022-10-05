@@ -42,3 +42,6 @@ Launched at 2009 as an OSPL
 - Netflix: for two part of their server architecture.
 - InfluxDB: is an open-source time series database developed by InfluxData.
 - Golang: The language itself was written in Go.
+
+[Countrywise Go-Adopted Applications](https://github.com/golang/go/wiki/GoUsers)
+
