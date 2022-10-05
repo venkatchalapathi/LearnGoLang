@@ -4,6 +4,8 @@
 - Advantages
 - Disadvantages
 - Applications
+- Go vs C++
+-
 
 #### Brief History
 
@@ -45,3 +47,24 @@ Launched at 2009 as an OSPL
 
 [Countrywise Go-Adopted Applications](https://github.com/golang/go/wiki/GoUsers)
 
+#### Go vs C++
+
+| Go            |    C++        |
+| ------------- |:-------------:|
+| Procedural and Concurrent programming language.| Object-oriented programming language. | 
+|Does not contain classes with constructors and deconstructors.|Does contain classes with constructors and deconstructors.|
+|Provides automatic garbage collection for allocating memory.| Does not provide automatic garbage collection for allocating memory.|
+|Does not use header files. Instead of header file, go use packages|Contain header file and does not contain package|
+|Use panic and recover for resolving error.|Use try, catch, and throw for resolving error.|
+|Does not support inheritance. But it provides an alternative in the form of Embedding.|Supports inheritance|
+
+#### Go vs Java
+
+| Go            |    Java       |
+| ------------- |:-------------:|
+|Procedural and concurrent programming language.| Object-Oriented programming language. | 
+|Does not support classes with constructors and deconstructors|Supports classes with constructors and deconstructors. | 
+|Does not contain the concept of exception handling instead of exception handling Go has errors.|Contains the concept of exception handling. |
+|Does not support inheritance.|Supports inheritance. | 
+|Does not support generics.|Supports generics. | 
+|Threads in Go are cheap.|Threads in Java are expensive in comparison to Go.|
